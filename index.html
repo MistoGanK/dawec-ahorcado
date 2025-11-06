@@ -1,11 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Home page</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahorcado</title>
+    <link rel="stylesheet" href="assets/style/style.css">
+    <link rel="icon" type="image/png" href="assets/icons/ahorcado-favicon.png">
 </head>
 <body>
-  
+    <header>
+        <h1>Ahorcado</h1>
+    </header>
+    <main>
+        <!-- Result container -->
+         <section class="reuslt">
+         </section>
+        <!-- Timer continer -->
+        <section class="timer-container">
+            <h2 class="time">00:00:00:00</h2>
+        </section>
+        <!-- Stickman Container -->
+        <section class="stickman-container">
+            <div class="stickman">
+
+            </div>
+            <div class="secret-word">
+        <!-- Contenedores <p> generados ne JS, pre organizado por el div padre -->
+                
+            </div>
+        </section>
+        <!-- ABC Container -->
+        <section class="abc-container">
+            <div class="abc">
+                <div class="letter-container">
+                    <div class="letter">Q</div>
+                    <div class="letter">W</div>
+                    <div class="letter">E</div>
+                    <div class="letter">R</div>
+                    <div class="letter">T</div>
+                    <div class="letter">Y</div>
+                    <div class="letter">U</div>
+                    <div class="letter">I</div>
+                    <div class="letter">O</div>
+                    <div class="letter">P</div>
+                </div>
+                <div class="letter-container">
+                    <div class="letter">A</div>
+                    <div class="letter">S</div>
+                    <div class="letter">D</div>
+                    <div class="letter">F</div>
+                    <div class="letter">G</div>
+                    <div class="letter">H</div>
+                    <div class="letter">J</div>
+                    <div class="letter">K</div>
+                    <div class="letter">L</div>
+                    <div class="letter">Ñ</div>
+                </div>
+               <div class="letter-container">
+                    <div class="letter">Z</div>
+                    <div class="letter">X</div>
+                    <div class="letter">C</div>
+                    <div class="letter">V</div>
+                    <div class="letter">B</div>
+                    <div class="letter">N</div>
+                    <div class="letter">M</div>
+               </div>
+            </div>
+            <div class="error-container">
+                <h3>Has cometido <span id="error-count">0</span> errores</h3>
+            </div>
+        </section>
+    </main>
+    <script src="assets/script/script.js"></script>
 </body>
 </html>
