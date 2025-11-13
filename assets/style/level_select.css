@@ -1,0 +1,59 @@
+h1{
+  margin-top: 10px;
+}
+main{
+ align-items: center;
+}
+form{
+  width: clamp(400px,50%,600px);
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  background-color: var(--color-grey-tranps);
+  border-radius: 20px;
+}
+form *{
+  position: relative;
+  font-family: monospace;
+  font-size: 1.3rem;
+}
+form label{
+  background-color: var(--color-black-lighter);
+  padding: 10px;
+  border-radius: 10px;  
+}
+select{
+  padding: 8px;
+  border-radius: 8px;
+  background-color: var(--color-black-lighter);
+  border: none;
+  cursor: pointer;
+}
+input[type="submit"]{
+  padding: 15px;
+  margin-top: 1.5rem;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  background-color: var(--color-white);
+  color: var(--color-black);
+}
+input[type="submit"]:hover,
+input[type="submit"]:active,
+input[type="submit"]:focus{
+  background-color: var(--color-black);
+  color: var(--color-white);
+}
+#dififulty_level{
+ -webkit-appearance: none; 
+  appearance: none;
+  height: 8px; /* Altura de la pista/barra */
+  background: transparent; /* Fondo transparente para que solo se vea la pista */
+  background-color: var(--color-white);
+  border-radius: 999px;
+  color: black;
+  cursor: pointer;
+}

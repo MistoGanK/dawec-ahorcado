@@ -3,9 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Selection</title>
+    <link rel="stylesheet" href="/assets/style/style.css">
+    <link rel="stylesheet" href="/assets/style/level_select.css">
+    <title>Selecion de nivel</title>
 </head>
 <body>  
-    
+    <header>
+        <h1>Seleciona modo</h1>
+    </header>
+    <main>
+        <form id="form_select_level" action="">
+            <label for="dififulty_level">Nivel de dificultad</label>
+            <p id="level_p"></p>
+            <input id="dififulty_level" type="range" min="0" max="2" step="1" value="0">
+            <label for="category">Categoria</label>
+            <select id="category">
+                <option value="libros">Libros</option>
+                <option value="videojuegos">Videojuegos</option>
+                <option value="peliculas">Peliculas</option>
+                <option value="memes">Memes</option>                   
+            </select>
+            <input type="submit" value="Empezar Partida">
+        </form>
+    </main>
+    <script src="/assets/script/level_select.js"></script>
 </body>
 </html>

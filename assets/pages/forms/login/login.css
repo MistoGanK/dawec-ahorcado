@@ -12,7 +12,7 @@ main{
   width: 100%;
 }
 body{
-  background-color: #eddfdf34;
+  background-color: #0f0c0cf6;
 }
 main{
   display: flex;
@@ -78,6 +78,15 @@ h1{
   width: 100%;
   padding: 5px;
   border-radius: 5px;
+}
+#btn_return_home,
+#btn_go_register{
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  font-family:monospace;
+  font-weight: bold;
+  cursor: pointer;
 }
 /* Aplied on inputs & .form_alert */
 .error{

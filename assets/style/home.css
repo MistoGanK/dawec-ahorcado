@@ -1,0 +1,31 @@
+main,
+.section_start_game,
+.section_log_in,
+button{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  gap: 15px;
+}
+button{
+  padding: 15px 20px;
+  background-color: var(--color-grey-tranps);
+  color: var(--color-whit);
+  font-family: 'Lato-Regular';
+  font-weight: bold;
+  font-size: 1rem;
+  border: 3px solid var(--color-grey-tranps);
+  border-radius: 10px;
+  width:clamp(100px, 30vw, 300px);
+  cursor: pointer;
+}
+button:hover,
+button:active,
+button:focus{
+ scale: 1.05;
+ background-color: var(--color-grey-tranps-denser);
+ 
+}
+button:active{
+  transform: rotate3d(2,1,1,15deg)
+}

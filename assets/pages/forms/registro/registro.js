@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
   // console.log(formRegister);
   const userName = document.querySelector("#userName");
   // console.log(userName);
-  const userEmail = document.querySelector("#userEmail");
+  // const userEmail = document.querySelector("#userEmail");
   // console.log(userEmail);
   const userPassword = document.querySelector("#userPassword");
   // console.log(userPassword);
@@ -12,12 +12,25 @@ document.addEventListener("DOMContentLoaded", () => {
   // console.log(userRePassword);
   const submitForm = document.querySelector("#submitForm");
   // console.log(submitForm);
+  const btn_return_home = document.getElementById('btn_return_home');
+  // console.log(btn_return_home);
+  const btn_go_login = document.getElementById('btn_go_login');
+  // console.log(btn_go_login);
 
   // Constants
   const re = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+  const link_home = '/index.html';
+  const link_login = '/assets/pages/forms/login/login.html';
+  const hrefDbJson = "/assets/db/db.json";
 
   // FUNCTIONS
-
+      function returnHome(){
+        window.location = link_home;
+        return;
+      };
+      function goLogin(){
+        window.location = link_login;
+      };
      // Show error
     function showError (inputDivSibling,errorMessage){
       const divError = inputDivSibling.nextElementSibling;
@@ -43,21 +56,21 @@ document.addEventListener("DOMContentLoaded", () => {
       }else{
         showCorrect(inputUsername);
         return true;
-      }
+      };
     };
 
     // Email test
-    function validEmail (inputEmail){
-      const emailValue = inputEmail.value.trim();
-      if(!re.test(emailValue)){
-      const errorText = 'Wrong Email type, ex: @mail.com';
-      showError(inputEmail,errorText);
-      return false;
-      }else{
-        showCorrect(inputEmail);
-        return true;
-      }
-    };
+    // function validEmail (inputEmail){
+    //   const emailValue = inputEmail.value.trim();
+    //   if(!re.test(emailValue)){
+    //   const errorText = 'Wrong Email type, ex: @mail.com';
+    //   showError(inputEmail,errorText);
+    //   return false;
+    //   }else{
+    //     showCorrect(inputEmail);
+    //     return true;
+    //   }
+    // };
 
     // Password test
     function validPassword(inputPassword){
@@ -83,6 +96,22 @@ document.addEventListener("DOMContentLoaded", () => {
       }else{
         showCorrect(inputRePassword);
         return true;
+      };
+    };
+    // Called afther the all comprovations are correct
+    async function registerUser (hrefDbJson){
+      try{
+        const response = await fetch(hrefDbJson);
+        if (!response.ok){
+          console.log("Error on retievieng data from db", response.status);
+          return;
+        }else{
+          const data = await response.json();
+          
+        }
+      }catch(error){
+        console.log("Error on getting users data db",error);
+        return;
       }
     };
 
@@ -93,14 +122,14 @@ document.addEventListener("DOMContentLoaded", () => {
       e.preventDefault();
       // Checks
       const isUsernameValid = validUsername(userName);
-      const isUserEmailValid = validEmail(userEmail);
+      // const isUserEmailValid = validEmail(userEmail);
       const isUserPasswordValid = validPassword(userPassword);
       const isuserRePasswordValid = validRePassword(userPassword,userRePassword);
-      if(isUsernameValid && isUserEmailValid && isUserPasswordValid && isuserRePasswordValid){
+      if(isUsernameValid /*Email*/ && isUserPasswordValid && isuserRePasswordValid){
         formRegister.submit();
       }else{
         
-      }
+      };
     });
     // EVENTS INPUT LOSE FOCUS
     formRegister.addEventListener('focusout',(e)=>{
@@ -114,11 +143,11 @@ document.addEventListener("DOMContentLoaded", () => {
             console.log(inputFocusLosed.id);
             break;
           };
-          case 'userEmail':{
-              validEmail(inputFocusLosed);
-                console.log(inputFocusLosed.id);
-              break;
-          };
+          // case 'userEmail':{
+          //     validEmail(inputFocusLosed);
+          //       console.log(inputFocusLosed.id);
+          //     break;
+          // };
           case 'userPassword':{
               validPassword(inputFocusLosed);
               console.log(inputFocusLosed.id);
@@ -131,5 +160,6 @@ document.addEventListener("DOMContentLoaded", () => {
           };
       };
     });
-
+    btn_return_home.addEventListener('click',returnHome);
+    btn_go_login.addEventListener('click',goLogin);
 });

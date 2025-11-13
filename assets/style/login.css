@@ -4,6 +4,7 @@
  --color-white:#fefffe;
  --color-grey-tranps:#a4a4a530;
  --color-grey-tranps-denser:#a4a4a554;
+ --color-black-lighter:#0a090c;
 }
 /* Title */
 @font-face {
@@ -41,7 +42,6 @@ html{
 }
 body{
     height: 100%;
-    background-color: var(--color-black);
     justify-content: center;
     align-items: center;
 }

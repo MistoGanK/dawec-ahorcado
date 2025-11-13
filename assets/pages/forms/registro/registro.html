@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Formulario</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="registro.css">
 </head>
 <body>
   <main>
@@ -14,9 +14,9 @@
       <input id="userName" type="text" placeholder="Username">
       <div class="fomr_alert" role="alert" aria-live="assertive"></div>
       
-      <label for="userEmail">Email</label>
+      <!-- <label for="userEmail">Email</label>
       <input id="userEmail" type="text" placeholder="YourEmail@mail.com">
-      <div class="fomr_alert" role="alert" aria-live="assertive"></div>
+      <div class="fomr_alert" role="alert" aria-live="assertive"></div> -->
       
       <label for="userPassword">Password</label>
       <input id="userPassword" type="password" placeholder="PlayeR10!1990">
@@ -26,8 +26,12 @@
       <input id="userRePassword" type="password" placeholder="PlayeR10!1990">
       <div class="fomr_alert" role="alert" aria-live="assertive"></div>
       <input id="submitForm" type="submit" value="Register">
+      <div class="register_buttons">
+        <button type="button" id="btn_return_home">Return Home</button>
+        <button type="button" id="btn_go_login">Login</button>
+      </div>
     </form>
   </main>
-  <script src="script.js  "></script>
+  <script src="registro.js"></script>
 </body>
 </html>

@@ -1,0 +1,516 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "Manolo",
+      "password": "12345"
+    }
+  ],
+  "leaderboard":[
+    {
+      "id":1,
+      "position":1,
+      "username": "Manolo"
+    }
+  ],
+  "phrases":[
+    {
+      "id":1,
+      "category":"videojuegos",
+      "phrase":"UNICORNIO",
+      "difficulty":1
+    },
+    {
+      "id":2,
+      "category":"videojuegos",
+      "phrase":"DRAGON",
+      "difficulty":0
+    },
+    {
+      "id":3,
+      "category":"videojuegos",
+      "phrase":"EXCALIBUR",
+      "difficulty":1
+    },
+    {
+      "id":4,
+      "category":"videojuegos",
+      "phrase":"MICROTRANSACCION",
+      "difficulty":2
+    },
+    {
+      "id":5,
+      "category":"videojuegos",
+      "phrase":"METROIDVANIA",
+      "difficulty":2
+    },
+    {
+      "id":6,
+      "category":"videojuegos",
+      "phrase":"PROCEDURAL",
+      "difficulty":2
+    },
+    {
+      "id":7,
+      "category":"videojuegos",
+      "phrase":"GRIEFING",
+      "difficulty":2
+    },
+    {
+      "id":8,
+      "category":"videojuegos",
+      "phrase":"MULTIJUGADOR",
+      "difficulty":1
+    },
+    {
+      "id":9,
+      "category":"videojuegos",
+      "phrase":"PROTAGONISTA",
+      "difficulty":1
+    },
+    {
+      "id":10,
+      "category":"videojuegos",
+      "phrase":"PLATAFORMAS",
+      "difficulty":1
+    },
+    {
+      "id":11,
+      "category":"videojuegos",
+      "phrase":"MANDO",
+      "difficulty":0
+    },
+    {
+      "id":12,
+      "category":"videojuegos",
+      "phrase":"PUNTOS",
+      "difficulty":0
+    },
+    {
+      "id":14,
+      "category":"videojuegos",
+      "phrase":"VIDA",
+      "difficulty":0
+    },
+    {
+      "id": 15,
+      "category": "libros",
+      "phrase": "PAGINA",
+      "difficulty": 0
+    },
+    {
+      "id": 16,
+      "category": "libros",
+      "phrase": "AUTOR",
+      "difficulty": 0
+    },
+    {
+      "id": 17,
+      "category": "libros",
+      "phrase": "BIBLIA",
+      "difficulty": 0
+    },
+    {
+      "id": 18,
+      "category": "libros",
+      "phrase": "LEER",
+      "difficulty": 0
+    },
+    {
+      "id": 19,
+      "category": "libros",
+      "phrase": "EDITORIAL",
+      "difficulty": 1
+    },
+    {
+      "id": 20,
+      "category": "libros",
+      "phrase": "PROLOGO",
+      "difficulty": 1
+    },
+    {
+      "id": 21,
+      "category": "libros",
+      "phrase": "EPILOGO",
+      "difficulty": 1
+    },
+    {
+      "id": 22,
+      "category": "libros",
+      "phrase": "TRILOGIA",
+      "difficulty": 1
+    },
+    {
+      "id": 23,
+      "category": "libros",
+      "phrase": "OMNISCIENTE",
+      "difficulty": 2
+    },
+    {
+      "id": 24,
+      "category": "libros",
+      "phrase": "QUIJOTE",
+      "difficulty": 2
+    },
+    {
+      "id": 25,
+      "category": "libros",
+      "phrase": "TAPA",
+      "difficulty": 0
+    },
+    {
+      "id": 26,
+      "category": "libros",
+      "phrase": "FILA",
+      "difficulty": 0
+    },
+    {
+      "id": 27,
+      "category": "libros",
+      "phrase": "MITO",
+      "difficulty": 0
+    },
+    {
+      "id": 28,
+      "category": "libros",
+      "phrase": "CUENTO",
+      "difficulty": 0
+    },
+    {
+      "id": 29,
+      "category": "libros",
+      "phrase": "IMPRENTA",
+      "difficulty": 1
+    },
+    {
+      "id": 30,
+      "category": "libros",
+      "phrase": "BIOGRAFIA",
+      "difficulty": 1
+    },
+    {
+      "id": 31,
+      "category": "libros",
+      "phrase": "NOVELA",
+      "difficulty": 1
+    },
+    {
+      "id": 32,
+      "category": "libros",
+      "phrase": "LITERATURA",
+      "difficulty": 1
+    },
+    {
+      "id": 33,
+      "category": "libros",
+      "phrase": "BIBLIOTECA",
+      "difficulty": 2
+    },
+    {
+      "id": 34,
+      "category": "libros",
+      "phrase": "FICCION",
+      "difficulty": 2
+    },
+    {
+      "id": 35,
+      "category": "peliculas",
+      "phrase": "CINE",
+      "difficulty": 0
+    },
+    {
+      "id": 36,
+      "category": "peliculas",
+      "phrase": "POP",
+      "difficulty": 0
+    },
+    {
+      "id": 37,
+      "category": "peliculas",
+      "phrase": "SALA",
+      "difficulty": 0
+    },
+    {
+      "id": 38,
+      "category": "peliculas",
+      "phrase": "FILME",
+      "difficulty": 0
+    },
+    {
+      "id": 39,
+      "category": "peliculas",
+      "phrase": "TRAILER",
+      "difficulty": 1
+    },
+    {
+      "id": 40,
+      "category": "peliculas",
+      "phrase": "ESCENA",
+      "difficulty": 1
+    },
+    {
+      "id": 41,
+      "category": "peliculas",
+      "phrase": "DIRECTOR",
+      "difficulty": 1
+    },
+    {
+      "id": 42,
+      "category": "peliculas",
+      "phrase": "TAQUILLA",
+      "difficulty": 1
+    },
+    {
+      "id": 43,
+      "category": "peliculas",
+      "phrase": "FOTOGRAMA",
+      "difficulty": 2
+    },
+    {
+      "id": 44,
+      "category": "peliculas",
+      "phrase": "GUION",
+      "difficulty": 2
+    },
+    {
+      "id": 45,
+      "category": "peliculas",
+      "phrase": "ACTOR",
+      "difficulty": 0
+    },
+    {
+      "id": 46,
+      "category": "peliculas",
+      "phrase": "RODAJE",
+      "difficulty": 0
+    },
+    {
+      "id": 47,
+      "category": "peliculas",
+      "phrase": "OSCAR",
+      "difficulty": 0
+    },
+    {
+      "id": 48,
+      "category": "peliculas",
+      "phrase": "SERIE",
+      "difficulty": 0
+    },
+    {
+      "id": 49,
+      "category": "peliculas",
+      "phrase": "CAMARA",
+      "difficulty": 1
+    },
+    {
+      "id": 50,
+      "category": "peliculas",
+      "phrase": "GUIONISTA",
+      "difficulty": 1
+    },
+    {
+      "id": 51,
+      "category": "peliculas",
+      "phrase": "CLAQUETA",
+      "difficulty": 1
+    },
+    {
+      "id": 52,
+      "category": "peliculas",
+      "phrase": "PRODUCTOR",
+      "difficulty": 1
+    },
+    {
+      "id": 53,
+      "category": "peliculas",
+      "phrase": "CINEFILO",
+      "difficulty": 2
+    },
+    {
+      "id": 54,
+      "category": "peliculas",
+      "phrase": "PREMIERE",
+      "difficulty": 2
+    },
+    {
+      "id": 55,
+      "category": "memes",
+      "phrase": "GRACIOSO",
+      "difficulty": 0
+    },
+    {
+      "id": 56,
+      "category": "memes",
+      "phrase": "GIF",
+      "difficulty": 0
+    },
+    {
+      "id": 57,
+      "category": "memes",
+      "phrase": "REACCION",
+      "difficulty": 0
+    },
+    {
+      "id": 58,
+      "category": "memes",
+      "phrase": "TREND",
+      "difficulty": 0
+    },
+    {
+      "id": 59,
+      "category": "memes",
+      "phrase": "VIRAL",
+      "difficulty": 1
+    },
+    {
+      "id": 60,
+      "category": "memes",
+      "phrase": "PLANTILLA",
+      "difficulty": 1
+    },
+    {
+      "id": 61,
+      "category": "memes",
+      "phrase": "REDDIT",
+      "difficulty": 1
+    },
+    {
+      "id": 62,
+      "category": "memes",
+      "phrase": "TROLL",
+      "difficulty": 1
+    },
+    {
+      "id": 63,
+      "category": "memes",
+      "phrase": "SHITPOSTING",
+      "difficulty": 2
+    },
+    {
+      "id": 64,
+      "category": "memes",
+      "phrase": "CHAD",
+      "difficulty": 2
+    },
+    {
+      "id": 65,
+      "category": "memes",
+      "phrase": "DOGE",
+      "difficulty": 0
+    },
+    {
+      "id": 66,
+      "category": "memes",
+      "phrase": "IMAGEN",
+      "difficulty": 0
+    },
+    {
+      "id": 67,
+      "category": "memes",
+      "phrase": "HILO",
+      "difficulty": 0
+    },
+    {
+      "id": 68,
+      "category": "memes",
+      "phrase": "RISA",
+      "difficulty": 0
+    },
+    {
+      "id": 69,
+      "category": "memes",
+      "phrase": "HUMOR",
+      "difficulty": 1
+    },
+    {
+      "id": 70,
+      "category": "memes",
+      "phrase": "TIKTOK",
+      "difficulty": 1
+    },
+    {
+      "id": 71,
+      "category": "memes",
+      "phrase": "BROMAS",
+      "difficulty": 1
+    },
+    {
+      "id": 72,
+      "category": "memes",
+      "phrase": "HASHTAG",
+      "difficulty": 1
+    },
+    {
+      "id": 73,
+      "category": "memes",
+      "phrase": "IRONICO",
+      "difficulty": 2
+    },
+    {
+      "id": 74,
+      "category": "memes",
+      "phrase": "BAIT",
+      "difficulty": 2
+    },
+    {
+      "id": 75,
+      "category": "memes",
+      "phrase": "FOTO",
+      "difficulty": 0
+    },
+    {
+      "id": 76,
+      "category": "memes",
+      "phrase": "POST",
+      "difficulty": 0
+    },
+    {
+      "id": 77,
+      "category": "memes",
+      "phrase": "CLIP",
+      "difficulty": 0
+    },
+    {
+      "id": 78,
+      "category": "memes",
+      "phrase": "TENDENCIA",
+      "difficulty": 1
+    },
+    {
+      "id": 79,
+      "category": "memes",
+      "phrase": "ORIGINAL",
+      "difficulty": 1
+    },
+    {
+      "id": 80,
+      "category": "memes",
+      "phrase": "REPOST",
+      "difficulty": 1
+    },
+    {
+      "id": 81,
+      "category": "memes",
+      "phrase": "COMENTARIO",
+      "difficulty": 1
+    },
+    {
+      "id": 82,
+      "category": "memes",
+      "phrase": "DANK",
+      "difficulty": 2
+    },
+    {
+      "id": 83,
+      "category": "memes",
+      "phrase": "NORMIE",
+      "difficulty": 2
+    },
+    {
+      "id": 84,
+      "category": "memes",
+      "phrase": "OC",
+      "difficulty": 2
+    }
+  ]
+}
