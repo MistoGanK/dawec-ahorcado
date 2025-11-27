@@ -6,10 +6,10 @@ document.addEventListener('DOMContentLoaded',(e) =>{
   const btn_admin = document.getElementById('btn_admin');
   
   // Routes 
-  const link_game = '/assets/pages/level_select.html';
-  const link_log_in = '/assets/pages/forms/login/login.html';
-  const link_leaderboard = '/assets/pages/leaderboard.html';
-  const link_admin = '/assets/pages/admin.html';
+  const link_game = 'assets/pages/level_select.html';
+  const link_log_in = 'assets/pages/forms/login/login.html';
+  const link_leaderboard = 'assets/pages/leaderboard.html';
+  const link_admin = 'assets/pages/admin.html';
 
   checkUserLogged();
   // Function
@@ -42,5 +42,5 @@ document.addEventListener('DOMContentLoaded',(e) =>{
   btn_log_in.addEventListener('click',redirect_log_in);
   btn_leaderboard.addEventListener('click',redirect_leaderboard);
   btn_admin.addEventListener('click',redirect_admin);
-  
+
 });
