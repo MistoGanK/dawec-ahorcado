@@ -21,6 +21,8 @@ Las demas carpetas contienen el codigo que posteriormente se aplicara al juego p
 - Cronometro
 - Control de teclas (feedback errores, aciertos y bloqueo de teclas para evitar repetición)
 - Guardar record (Si esta estas logeado)
+- Leaderboard (Filtrando por categoria y dificultad)
+- Admin panel (Selecionar,Modificar,Añadir y Eliminar frases)
 
 (<--- Comentarios --->)
 - En la consola del navegador puede ver la frase generada
