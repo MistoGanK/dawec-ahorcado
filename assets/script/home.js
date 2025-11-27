@@ -6,10 +6,10 @@ document.addEventListener('DOMContentLoaded',(e) =>{
   const btn_admin = document.getElementById('btn_admin');
   
   // Routes 
-  const link_game = 'assets/pages/level_select.html';
-  const link_log_in = 'assets/pages/forms/login/login.html';
-  const link_leaderboard = 'assets/pages/leaderboard.html';
-  const link_admin = 'assets/pages/admin.html';
+  const link_game = '../pages/level_select.html';
+  const link_log_in = '../pages/forms/login/login.html';
+  const link_leaderboard = '../pages/leaderboard.html';
+  const link_admin = '../pages/admin.html';
 
   checkUserLogged();
   // Function
