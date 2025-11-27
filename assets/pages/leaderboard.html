@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="../style/leaderboard.css">
+</head>
+<body>
+  <button id="button_volver_inicio">Volver Inicio</button>
+  <section id="leaderboard_section">
+    <h2>Ranking</h2>
+    
+    <div class="leaderboard_filters">
+        <label for="select_category">Categoría:</label>
+        <select id="select_category">
+            <option value="videojuegos">Videojuegos</option>
+            <option value="peliculas">Películas</option>
+            <option value="libros">Libros</option>
+            <option value="memes">Memes</option>
+        </select>
+        
+        <label for="select_difficulty">Dificultad:</label>
+        <select id="select_difficulty">
+            <option value="2">Difícil</option>
+            <option value="1">Medio</option>
+            <option value="0">Fácil</option>
+        </select>
+        
+        <button id="btn_show_leaderboard" type="button">Mostrar Clasificación</button>
+    </div>
+    
+    <div class="leaderboard_results">
+        <h3>Mejores Puntuaciones</h3>
+        
+        <div class="leaderboard-header">
+            <div class="rank_col">#</div>
+            <div class="user_col">Usuario</div>
+            <div class="score_col">Puntuación</div>
+        </div>
+        
+        <div id="leaderboard_container" class="leaderboard_body_container">
+            </div>
+
+        <p id="no_scores_message" style="display: none;">No hay puntuaciones registradas para estos filtros.</p>
+    </div>
+</section>
+  <script src="../script/leaderboard.js"></script>
+</body>
+</html>

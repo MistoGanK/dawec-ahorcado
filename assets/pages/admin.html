@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin panel</title>
+  <link rel="stylesheet" href="../style/admin.css">
+</head>
+<body>
+  <button id="button_volver_inicio">Volver Inicio</button>
+  <section id="admin_panel">
+    <h2>Administración de Frases</h2>
+
+    <div id="phrase_form_container">
+        <h3>Añadir Nueva Frase</h3>
+        <form id="phrase_form">
+            <input type="hidden" id="phrase_id" value=""> 
+
+            <label for="phrase_text">Frase (MAYÚSCULAS):</label>
+            <input type="text" id="phrase_text" required placeholder="EJEMPLO">
+
+            <label for="phrase_category">Categoría:</label>
+            <select id="phrase_category" required>
+                <option value="videojuegos">Videojuegos</option>
+                <option value="libros">Libros</option>
+                <option value="peliculas">Películas</option>
+                <option value="memes">Memes</option>
+            </select>
+
+            <label for="phrase_difficulty">Dificultad (0=Fácil, 2=Difícil):</label>
+            <select id="phrase_difficulty" required>
+                <option value="0">0 (Fácil)</option>
+                <option value="1">1 (Medio)</option>
+                <option value="2">2 (Difícil)</option>
+            </select>
+
+            <button type="submit" id="submit_button">Añadir Frase</button>
+            <button type="button" id="cancel_edit_button" style="display: none;">Cancelar Edición</button>
+        </form>
+    </div>
+
+    <div id="phrase_list_container">
+        <h3>Frases Existentes</h3>
+        <ul id="phrases_list">
+            <li>Cargando frases...</li>
+        </ul>
+    </div>
+</section>
+<script src="/assets/script/admin.js"></script>
+</body>
+</html>

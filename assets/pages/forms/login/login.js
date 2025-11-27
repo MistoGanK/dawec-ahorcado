@@ -16,18 +16,24 @@ document.addEventListener("DOMContentLoaded", () => {
   // Constants
   const re =
     /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-  const link_home = "/index.html";
-  const link_register = "/assets/pages/forms/registro/registro.html";
-  const link_level_select = "/assets/pages/level_select.html";
-  const hrefDbJson = "/assets/db/db.json";
+  const link_home = "../../../../index.html";
+  const link_register = "../registro/registro.html";
+  const link_level_select = "../../level_select.html";
+  const hrefDbJson = "../../../db/db.json";
 
   const errorUsername = "Username not match";
   const errorPassword = "Password not match";
 
   const correctUsername = "Username matches";
   const correctPassword = "Password matches";
-
   // FUNCTIONS
+  function checkUserLogged() {
+    if (localStorage.getItem("currentUser")) {
+      // Redirigir
+      window.location = link_home;
+    }
+  }
+  checkUserLogged();
   // Función principal para manejar la autenticación
   async function checkCredentials(
     hrefDbJson,
@@ -51,7 +57,9 @@ document.addEventListener("DOMContentLoaded", () => {
       const data = await response.json();
       const users = data.users;
 
-      const foundUser = users.find((user) => user.username === userNameInput.value.trim());
+      const foundUser = users.find(
+        (user) => user.username === userNameInput.value.trim()
+      );
 
       if (foundUser) {
         // User found
@@ -67,7 +75,7 @@ document.addEventListener("DOMContentLoaded", () => {
       } else {
         // User not found
         showError(userNameInput, errorUsername);
-        showError(userPasswordInput, errorPassword); // Opcional: mostrar error en ambos campos
+        showError(userPasswordInput, errorPassword);
       }
       // Return boolean true if both are correct either false
       return isUsernameValid && isPasswordValid;
@@ -83,7 +91,7 @@ document.addEventListener("DOMContentLoaded", () => {
     window.location = link_home;
     return;
   }
-  function goRegister (){
+  function goRegister() {
     window.location = link_register;
     return;
   }
@@ -110,20 +118,31 @@ document.addEventListener("DOMContentLoaded", () => {
     const userNameInputValue = userName;
     const userPasswordInputValue = userPassword;
     // Calls for checkCredencials functions and save the result on the const
-    const loginCheck = await checkCredentials(hrefDbJson,userNameInputValue,userPasswordInputValue);
+    const loginCheck = await checkCredentials(
+      hrefDbJson,
+      userNameInputValue,
+      userPasswordInputValue
+    );
 
-    if (loginCheck){
+    if (loginCheck) {
       console.log("Logged Succesfully");
-      // Save it on local storage 
-      const userNameValue = userNameInputValue.value.trim();
-      localStorage.setItem("username",userNameValue);
+      // Save it on local storage
+      const userObject = {
+        username: userNameInputValue.value.trim(),
+      };
+
+      // Convertimos el objeto a JSON string
+      const userDataJson = JSON.stringify(userObject);
+
+      // Guardamos el objeto completo
+      localStorage.setItem("currentUser", userDataJson);
       window.location = link_level_select;
-    }else{
+      
+    } else {
       console.log("Error loggin credential");
     }
   });
-  
-  btn_return_home.addEventListener("click", returnHome);
-  btn_go_register.addEventListener("click",goRegister);
 
+  btn_return_home.addEventListener("click", returnHome);
+  btn_go_register.addEventListener("click", goRegister);
 });

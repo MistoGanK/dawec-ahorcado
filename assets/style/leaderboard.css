@@ -1,0 +1,143 @@
+:root {
+  --color-black: #0a090c;
+  --color-black-lighter: #0a090cb0;
+  --color-white: #fefffe;
+  --color-grey-tranps: #a4a4a530;
+  --color-grey-tranps-denser: #a4a4a554;
+}
+
+* {
+  padding: 0;   
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: monospace;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+html{
+  background-color: var(--color-black-lighter);
+}
+body{
+  position:relative;
+}
+#button_volver_inicio{
+  margin: 20px;
+}
+/* Estilo general de la sección */
+#leaderboard_section {
+  background-color: var(--color-black);
+  color: var(--color-white);
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 600px;
+  height: 100%;
+  margin: 20px auto;
+  box-shadow: 0 4px 15px var(--color-black-lighter);
+}
+#leaderboard_section h2, #leaderboard_section h3 {
+  text-align: center;
+  color: var(--color-white);
+  margin-bottom: 20px;
+}
+/* Estilo filtros y botones */
+.leaderboard_filters {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 25px;
+  padding: 10px;
+  border-radius: 4px;
+  background-color: var(--color-black-lighter);
+}
+
+.leaderboard_filters label {
+  font-size: 0.9em;
+  color: var(--color-white);
+}
+
+.leaderboard_filters select {
+  padding: 5px 8px;
+  border: 1px solid var(--color-grey-tranps-denser);
+  border-radius: 4px;
+  background-color: var(--color-black);
+  color: var(--color-white);
+  cursor: pointer;
+}
+
+#btn_show_leaderboard,
+#button_volver_inicio {
+  padding: 8px 15px;
+  background-color: var(--color-white);
+  color: var(--color-black);
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+#btn_show_leaderboard:hover {
+  background-color: #a4a4a5;
+}
+/* Estilo clasificación */
+.leaderboard_body_container {
+    border: 1px solid var(--color-grey-tranps);
+    border-radius: 4px;
+    overflow: hidden; 
+}
+
+/* Estilo para el encabezado y todas las filas */
+.leaderboard-header,
+.leaderboard_row {
+    display: flex;
+    align-items: center;
+    padding: 12px 15px; 
+    font-size: 1em;
+}
+/* Estilo cabecera */
+.leaderboard-header {
+    background-color: var(--color-grey-tranps-denser);
+    color: var(--color-white);
+    font-weight: bold;
+    border-bottom: 2px solid var(--color-white);
+    text-transform: uppercase;
+}
+
+/* estilo filas de datos */
+.leaderboard_row {
+    border-bottom: 1px solid var(--color-grey-tranps);
+    transition: background-color 0.2s;
+}
+
+.leaderboard_row:hover {
+    background-color: var(--color-grey-tranps);
+}
+
+.leaderboard_row:first-child {
+    background-color: var(--color-grey-tranps-denser); 
+    font-weight: bold;
+}
+
+.rank_col {
+    width: 10%;
+    text-align: center;
+    color: var(--color-white);
+}
+
+.user_col {
+    width: 60%;
+}
+
+.score_col {
+    width: 30%;
+    text-align: right; 
+    font-weight: bold;
+    color: var(--color-white);
+}

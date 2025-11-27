@@ -1,513 +1,998 @@
 {
   "users": [
     {
-      "id": 1,
+      "id": "1",
       "username": "Manolo",
-      "password": "12345"
+      "password": "12345",
+      "scorees": [
+        {
+          "category": "videojuegos",
+          "difficulty": 2,
+          "score": 4370
+        },
+        {
+          "category": "videojuegos",
+          "difficulty": 1,
+          "score": 90
+        },
+        {
+          "category": "videojuegos",
+          "difficulty": 0,
+          "score": 50
+        },
+        {
+          "category": "peliculas",
+          "difficulty": 2,
+          "score": 2050
+        },
+        {
+          "category": "memes",
+          "difficulty": 2,
+          "score": 570
+        },
+        {
+          "category": "libros",
+          "difficulty": 2,
+          "score": 2140
+        },
+        {
+          "category": "libros",
+          "difficulty": 0,
+          "score": 1090
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "username": "mistogank",
+      "password": "misto12345",
+      "scorees": [
+        {
+          "category": "libros",
+          "difficulty": 0,
+          "score": 1320
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "username": "pacoman",
+      "password": "paco12345",
+      "scorees": [
+        {
+          "category": "libros",
+          "difficulty": 2,
+          "score": 7750
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "username": "CodingCat",
+      "password": "catpass",
+      "scorees": [
+        {
+          "category": "peliculas",
+          "difficulty": 2,
+          "score": 8500
+        },
+        {
+          "category": "videojuegos",
+          "difficulty": 2,
+          "score": 500
+        },
+        {
+          "category": "memes",
+          "difficulty": 2,
+          "score": 990
+        },
+        {
+          "category": "libros",
+          "difficulty": 2,
+          "score": 100
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "username": "WebDevJuan",
+      "password": "juanito",
+      "scorees": [
+        {
+          "category": "videojuegos",
+          "difficulty": 1,
+          "score": 1500
+        },
+        {
+          "category": "peliculas",
+          "difficulty": 0,
+          "score": 300
+        },
+        {
+          "category": "memes",
+          "difficulty": 2,
+          "score": 12000
+        },
+        {
+          "category": "libros",
+          "difficulty": 0,
+          "score": 800
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "username": "CuriousDev",
+      "password": "securepwd",
+      "scorees": [
+        {
+          "category": "peliculas",
+          "difficulty": 2,
+          "score": 2500
+        },
+        {
+          "category": "videojuegos",
+          "difficulty": 0,
+          "score": 100
+        },
+        {
+          "category": "libros",
+          "difficulty": 2,
+          "score": 5000
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "username": "FlexBoxer",
+      "password": "flex123",
+      "scorees": [
+        {
+          "category": "memes",
+          "difficulty": 0,
+          "score": 450
+        },
+        {
+          "category": "peliculas",
+          "difficulty": 2,
+          "score": 9200
+        },
+        {
+          "category": "libros",
+          "difficulty": 1,
+          "score": 1500
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "username": "CyberPunk",
+      "password": "hackme",
+      "scorees": [
+        {
+          "category": "videojuegos",
+          "difficulty": 2,
+          "score": 12500
+        },
+        {
+          "category": "memes",
+          "difficulty": 2,
+          "score": 300
+        },
+        {
+          "category": "peliculas",
+          "difficulty": 1,
+          "score": 500
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "username": "ArrayMaster",
+      "password": "mapit",
+      "scorees": [
+        {
+          "category": "libros",
+          "difficulty": 2,
+          "score": 8800
+        },
+        {
+          "category": "videojuegos",
+          "difficulty": 0,
+          "score": 90
+        },
+        {
+          "category": "peliculas",
+          "difficulty": 2,
+          "score": 1500
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "username": "AsyncAwait",
+      "password": "wait4me",
+      "scorees": [
+        {
+          "category": "memes",
+          "difficulty": 2,
+          "score": 10000
+        },
+        {
+          "category": "videojuegos",
+          "difficulty": 1,
+          "score": 750
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "username": "TheRefresher",
+      "password": "noprevent",
+      "scorees": [
+        {
+          "category": "peliculas",
+          "difficulty": 0,
+          "score": 450
+        },
+        {
+          "category": "libros",
+          "difficulty": 0,
+          "score": 100
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "username": "JSONLover",
+      "password": "parseme",
+      "scorees": [
+        {
+          "category": "videojuegos",
+          "difficulty": 2,
+          "score": 9999
+        },
+        {
+          "category": "peliculas",
+          "difficulty": 2,
+          "score": 50
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "username": "SnakeCase",
+      "password": "snake",
+      "scorees": [
+        {
+          "category": "libros",
+          "difficulty": 1,
+          "score": 4500
+        },
+        {
+          "category": "memes",
+          "difficulty": 0,
+          "score": 200
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "username": "QueryNinja",
+      "password": "fetcher",
+      "scorees": [
+        {
+          "category": "peliculas",
+          "difficulty": 1,
+          "score": 1000
+        },
+        {
+          "category": "libros",
+          "difficulty": 2,
+          "score": 6000
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "username": "FullStacker",
+      "password": "api",
+      "scorees": [
+        {
+          "category": "videojuegos",
+          "difficulty": 0,
+          "score": 500
+        },
+        {
+          "category": "memes",
+          "difficulty": 2,
+          "score": 1500
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "username": "DeepLearner",
+      "password": "ai",
+      "scorees": [
+        {
+          "category": "videojuegos",
+          "difficulty": 2,
+          "score": 7000
+        },
+        {
+          "category": "libros",
+          "difficulty": 2,
+          "score": 400
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "username": "DataMiner",
+      "password": "mineit",
+      "scorees": [
+        {
+          "category": "libros",
+          "difficulty": 2,
+          "score": 900
+        },
+        {
+          "category": "memes",
+          "difficulty": 0,
+          "score": 100
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "username": "FrontEndGuy",
+      "password": "css",
+      "scorees": [
+        {
+          "category": "peliculas",
+          "difficulty": 2,
+          "score": 10000
+        },
+        {
+          "category": "videojuegos",
+          "difficulty": 1,
+          "score": 400
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "username": "BackEndBabe",
+      "password": "node",
+      "scorees": [
+        {
+          "category": "videojuegos",
+          "difficulty": 2,
+          "score": 15000
+        },
+        {
+          "category": "libros",
+          "difficulty": 1,
+          "score": 2000
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "username": "UnitTest",
+      "password": "test",
+      "scorees": [
+        {
+          "category": "memes",
+          "difficulty": 2,
+          "score": 600
+        },
+        {
+          "category": "peliculas",
+          "difficulty": 0,
+          "score": 150
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "username": "BugHunter",
+      "password": "fixit",
+      "scorees": [
+        {
+          "category": "libros",
+          "difficulty": 0,
+          "score": 2500
+        },
+        {
+          "category": "videojuegos",
+          "difficulty": 2,
+          "score": 100
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "username": "APICaller",
+      "password": "getput",
+      "scorees": [
+        {
+          "category": "peliculas",
+          "difficulty": 1,
+          "score": 1200
+        },
+        {
+          "category": "memes",
+          "difficulty": 2,
+          "score": 4000
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "username": "PromiseKeeper",
+      "password": "then",
+      "scorees": [
+        {
+          "category": "videojuegos",
+          "difficulty": 0,
+          "score": 80
+        },
+        {
+          "category": "libros",
+          "difficulty": 2,
+          "score": 3500
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "username": "LocalStorage",
+      "password": "save",
+      "scorees": [
+        {
+          "category": "memes",
+          "difficulty": 1,
+          "score": 750
+        },
+        {
+          "category": "peliculas",
+          "difficulty": 2,
+          "score": 500
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "username": "Error404",
+      "password": "found",
+      "scorees": [
+        {
+          "category": "libros",
+          "difficulty": 1,
+          "score": 900
+        },
+        {
+          "category": "videojuegos",
+          "difficulty": 2,
+          "score": 200
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "username": "RefactorKing",
+      "password": "clean",
+      "scorees": [
+        {
+          "category": "peliculas",
+          "difficulty": 2,
+          "score": 7000
+        },
+        {
+          "category": "memes",
+          "difficulty": 2,
+          "score": 1800
+        }
+      ]
     }
   ],
-  "leaderboard":[
+  "phrases": [
     {
-      "id":1,
-      "position":1,
-      "username": "Manolo"
-    }
-  ],
-  "phrases":[
-    {
-      "id":1,
-      "category":"videojuegos",
-      "phrase":"UNICORNIO",
-      "difficulty":1
+      "id": "1",
+      "phrase": "UNICORN",
+      "category": "videojuegos",
+      "difficulty": 1
     },
     {
-      "id":2,
-      "category":"videojuegos",
-      "phrase":"DRAGON",
-      "difficulty":0
+      "id": "2",
+      "category": "videojuegos",
+      "phrase": "DRAGON",
+      "difficulty": 0
     },
     {
-      "id":3,
-      "category":"videojuegos",
-      "phrase":"EXCALIBUR",
-      "difficulty":1
+      "id": "3",
+      "category": "videojuegos",
+      "phrase": "EXCALIBUR",
+      "difficulty": 1
     },
     {
-      "id":4,
-      "category":"videojuegos",
-      "phrase":"MICROTRANSACCION",
-      "difficulty":2
+      "id": "4",
+      "category": "videojuegos",
+      "phrase": "MICROTRANSACCION",
+      "difficulty": 2
     },
     {
-      "id":5,
-      "category":"videojuegos",
-      "phrase":"METROIDVANIA",
-      "difficulty":2
+      "id": "5",
+      "category": "videojuegos",
+      "phrase": "METROIDVANIA",
+      "difficulty": 2
     },
     {
-      "id":6,
-      "category":"videojuegos",
-      "phrase":"PROCEDURAL",
-      "difficulty":2
+      "id": "6",
+      "category": "videojuegos",
+      "phrase": "PROCEDURAL",
+      "difficulty": 2
     },
     {
-      "id":7,
-      "category":"videojuegos",
-      "phrase":"GRIEFING",
-      "difficulty":2
+      "id": "7",
+      "category": "videojuegos",
+      "phrase": "GRIEFING",
+      "difficulty": 2
     },
     {
-      "id":8,
-      "category":"videojuegos",
-      "phrase":"MULTIJUGADOR",
-      "difficulty":1
+      "id": "8",
+      "category": "videojuegos",
+      "phrase": "MULTIJUGADOR",
+      "difficulty": 1
     },
     {
-      "id":9,
-      "category":"videojuegos",
-      "phrase":"PROTAGONISTA",
-      "difficulty":1
+      "id": "9",
+      "category": "videojuegos",
+      "phrase": "PROTAGONISTA",
+      "difficulty": 1
     },
     {
-      "id":10,
-      "category":"videojuegos",
-      "phrase":"PLATAFORMAS",
-      "difficulty":1
+      "id": "10",
+      "category": "videojuegos",
+      "phrase": "PLATAFORMAS",
+      "difficulty": 1
     },
     {
-      "id":11,
-      "category":"videojuegos",
-      "phrase":"MANDO",
-      "difficulty":0
+      "id": "11",
+      "category": "videojuegos",
+      "phrase": "MANDO",
+      "difficulty": 0
     },
     {
-      "id":12,
-      "category":"videojuegos",
-      "phrase":"PUNTOS",
-      "difficulty":0
+      "id": "12",
+      "category": "videojuegos",
+      "phrase": "PUNTOS",
+      "difficulty": 0
     },
     {
-      "id":14,
-      "category":"videojuegos",
-      "phrase":"VIDA",
-      "difficulty":0
+      "id": "14",
+      "category": "videojuegos",
+      "phrase": "VIDA",
+      "difficulty": 0
     },
     {
-      "id": 15,
+      "id": "15",
       "category": "libros",
       "phrase": "PAGINA",
       "difficulty": 0
     },
     {
-      "id": 16,
+      "id": "16",
       "category": "libros",
       "phrase": "AUTOR",
       "difficulty": 0
     },
     {
-      "id": 17,
+      "id": "17",
       "category": "libros",
       "phrase": "BIBLIA",
       "difficulty": 0
     },
     {
-      "id": 18,
+      "id": "18",
       "category": "libros",
       "phrase": "LEER",
       "difficulty": 0
     },
     {
-      "id": 19,
+      "id": "19",
       "category": "libros",
       "phrase": "EDITORIAL",
       "difficulty": 1
     },
     {
-      "id": 20,
+      "id": "20",
       "category": "libros",
       "phrase": "PROLOGO",
       "difficulty": 1
     },
     {
-      "id": 21,
+      "id": "21",
       "category": "libros",
       "phrase": "EPILOGO",
       "difficulty": 1
     },
     {
-      "id": 22,
+      "id": "22",
       "category": "libros",
       "phrase": "TRILOGIA",
       "difficulty": 1
     },
     {
-      "id": 23,
+      "id": "23",
       "category": "libros",
       "phrase": "OMNISCIENTE",
       "difficulty": 2
     },
     {
-      "id": 24,
+      "id": "24",
       "category": "libros",
       "phrase": "QUIJOTE",
       "difficulty": 2
     },
     {
-      "id": 25,
+      "id": "25",
       "category": "libros",
       "phrase": "TAPA",
       "difficulty": 0
     },
     {
-      "id": 26,
+      "id": "26",
       "category": "libros",
       "phrase": "FILA",
       "difficulty": 0
     },
     {
-      "id": 27,
+      "id": "27",
       "category": "libros",
       "phrase": "MITO",
       "difficulty": 0
     },
     {
-      "id": 28,
+      "id": "28",
       "category": "libros",
       "phrase": "CUENTO",
       "difficulty": 0
     },
     {
-      "id": 29,
+      "id": "29",
       "category": "libros",
       "phrase": "IMPRENTA",
       "difficulty": 1
     },
     {
-      "id": 30,
+      "id": "30",
       "category": "libros",
       "phrase": "BIOGRAFIA",
       "difficulty": 1
     },
     {
-      "id": 31,
+      "id": "31",
       "category": "libros",
       "phrase": "NOVELA",
       "difficulty": 1
     },
     {
-      "id": 32,
+      "id": "32",
       "category": "libros",
       "phrase": "LITERATURA",
       "difficulty": 1
     },
     {
-      "id": 33,
+      "id": "33",
       "category": "libros",
       "phrase": "BIBLIOTECA",
       "difficulty": 2
     },
     {
-      "id": 34,
+      "id": "34",
       "category": "libros",
       "phrase": "FICCION",
       "difficulty": 2
     },
     {
-      "id": 35,
+      "id": "35",
       "category": "peliculas",
       "phrase": "CINE",
       "difficulty": 0
     },
     {
-      "id": 36,
+      "id": "36",
       "category": "peliculas",
       "phrase": "POP",
       "difficulty": 0
     },
     {
-      "id": 37,
+      "id": "37",
       "category": "peliculas",
       "phrase": "SALA",
       "difficulty": 0
     },
     {
-      "id": 38,
+      "id": "38",
       "category": "peliculas",
       "phrase": "FILME",
       "difficulty": 0
     },
     {
-      "id": 39,
+      "id": "39",
       "category": "peliculas",
       "phrase": "TRAILER",
       "difficulty": 1
     },
     {
-      "id": 40,
+      "id": "40",
       "category": "peliculas",
       "phrase": "ESCENA",
       "difficulty": 1
     },
     {
-      "id": 41,
+      "id": "41",
       "category": "peliculas",
       "phrase": "DIRECTOR",
       "difficulty": 1
     },
     {
-      "id": 42,
+      "id": "42",
       "category": "peliculas",
       "phrase": "TAQUILLA",
       "difficulty": 1
     },
     {
-      "id": 43,
+      "id": "43",
       "category": "peliculas",
       "phrase": "FOTOGRAMA",
       "difficulty": 2
     },
     {
-      "id": 44,
+      "id": "44",
       "category": "peliculas",
       "phrase": "GUION",
       "difficulty": 2
     },
     {
-      "id": 45,
+      "id": "45",
       "category": "peliculas",
       "phrase": "ACTOR",
       "difficulty": 0
     },
     {
-      "id": 46,
+      "id": "46",
       "category": "peliculas",
       "phrase": "RODAJE",
       "difficulty": 0
     },
     {
-      "id": 47,
+      "id": "47",
       "category": "peliculas",
       "phrase": "OSCAR",
       "difficulty": 0
     },
     {
-      "id": 48,
+      "id": "48",
       "category": "peliculas",
       "phrase": "SERIE",
       "difficulty": 0
     },
     {
-      "id": 49,
+      "id": "49",
       "category": "peliculas",
       "phrase": "CAMARA",
       "difficulty": 1
     },
     {
-      "id": 50,
+      "id": "50",
       "category": "peliculas",
       "phrase": "GUIONISTA",
       "difficulty": 1
     },
     {
-      "id": 51,
+      "id": "51",
       "category": "peliculas",
       "phrase": "CLAQUETA",
       "difficulty": 1
     },
     {
-      "id": 52,
+      "id": "52",
       "category": "peliculas",
       "phrase": "PRODUCTOR",
       "difficulty": 1
     },
     {
-      "id": 53,
+      "id": "53",
       "category": "peliculas",
       "phrase": "CINEFILO",
       "difficulty": 2
     },
     {
-      "id": 54,
+      "id": "54",
       "category": "peliculas",
       "phrase": "PREMIERE",
       "difficulty": 2
     },
     {
-      "id": 55,
+      "id": "55",
       "category": "memes",
       "phrase": "GRACIOSO",
       "difficulty": 0
     },
     {
-      "id": 56,
+      "id": "56",
       "category": "memes",
       "phrase": "GIF",
       "difficulty": 0
     },
     {
-      "id": 57,
+      "id": "57",
       "category": "memes",
       "phrase": "REACCION",
       "difficulty": 0
     },
     {
-      "id": 58,
+      "id": "58",
       "category": "memes",
       "phrase": "TREND",
       "difficulty": 0
     },
     {
-      "id": 59,
+      "id": "59",
       "category": "memes",
       "phrase": "VIRAL",
       "difficulty": 1
     },
     {
-      "id": 60,
+      "id": "60",
       "category": "memes",
       "phrase": "PLANTILLA",
       "difficulty": 1
     },
     {
-      "id": 61,
+      "id": "61",
       "category": "memes",
       "phrase": "REDDIT",
       "difficulty": 1
     },
     {
-      "id": 62,
+      "id": "62",
       "category": "memes",
       "phrase": "TROLL",
       "difficulty": 1
     },
     {
-      "id": 63,
+      "id": "63",
       "category": "memes",
       "phrase": "SHITPOSTING",
       "difficulty": 2
     },
     {
-      "id": 64,
+      "id": "64",
       "category": "memes",
       "phrase": "CHAD",
       "difficulty": 2
     },
     {
-      "id": 65,
+      "id": "65",
       "category": "memes",
       "phrase": "DOGE",
       "difficulty": 0
     },
     {
-      "id": 66,
+      "id": "66",
       "category": "memes",
       "phrase": "IMAGEN",
       "difficulty": 0
     },
     {
-      "id": 67,
+      "id": "67",
       "category": "memes",
       "phrase": "HILO",
       "difficulty": 0
     },
     {
-      "id": 68,
+      "id": "68",
       "category": "memes",
       "phrase": "RISA",
       "difficulty": 0
     },
     {
-      "id": 69,
+      "id": "69",
       "category": "memes",
       "phrase": "HUMOR",
       "difficulty": 1
     },
     {
-      "id": 70,
+      "id": "70",
       "category": "memes",
       "phrase": "TIKTOK",
       "difficulty": 1
     },
     {
-      "id": 71,
+      "id": "71",
       "category": "memes",
       "phrase": "BROMAS",
       "difficulty": 1
     },
     {
-      "id": 72,
+      "id": "72",
       "category": "memes",
       "phrase": "HASHTAG",
       "difficulty": 1
     },
     {
-      "id": 73,
+      "id": "73",
       "category": "memes",
       "phrase": "IRONICO",
       "difficulty": 2
     },
     {
-      "id": 74,
+      "id": "74",
       "category": "memes",
       "phrase": "BAIT",
       "difficulty": 2
     },
     {
-      "id": 75,
+      "id": "75",
       "category": "memes",
       "phrase": "FOTO",
       "difficulty": 0
     },
     {
-      "id": 76,
+      "id": "76",
       "category": "memes",
       "phrase": "POST",
       "difficulty": 0
     },
     {
-      "id": 77,
+      "id": "77",
       "category": "memes",
       "phrase": "CLIP",
       "difficulty": 0
     },
     {
-      "id": 78,
+      "id": "78",
       "category": "memes",
       "phrase": "TENDENCIA",
       "difficulty": 1
     },
     {
-      "id": 79,
+      "id": "79",
       "category": "memes",
       "phrase": "ORIGINAL",
       "difficulty": 1
     },
     {
-      "id": 80,
+      "id": "80",
       "category": "memes",
       "phrase": "REPOST",
       "difficulty": 1
     },
     {
-      "id": 81,
+      "id": "81",
       "category": "memes",
       "phrase": "COMENTARIO",
       "difficulty": 1
     },
     {
-      "id": 82,
+      "id": "82",
       "category": "memes",
       "phrase": "DANK",
       "difficulty": 2
     },
     {
-      "id": 83,
+      "id": "83",
       "category": "memes",
       "phrase": "NORMIE",
       "difficulty": 2
     },
     {
-      "id": 84,
+      "id": "84",
       "category": "memes",
       "phrase": "OC",
       "difficulty": 2
