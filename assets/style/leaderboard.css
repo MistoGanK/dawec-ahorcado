@@ -1,6 +1,7 @@
 :root {
   --color-black: #0a090c;
   --color-black-lighter: #0a090cb0;
+  --color-gray:#312e2e;
   --color-white: #fefffe;
   --color-grey-tranps: #a4a4a530;
   --color-grey-tranps-denser: #a4a4a554;
@@ -21,7 +22,7 @@ body {
   width: 100%;
 }
 html{
-  background-color: var(--color-black-lighter);
+  background-color: var(--color-gray);
 }
 body{
   position:relative;

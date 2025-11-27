@@ -1,9 +1,10 @@
 :root {
     --color-black: #1e1e1e;
     --color-black-lighter: #282c34;
+    --color-gray:#312e2e;
     --color-white: #ffffff;
     --color-grey-tranps: rgba(255, 255, 255, 0.1);
-    --color-primary: #61afef;
+    --color-primary: #ffffff;
     --color-danger: #e06c75; 
     --color-success: #98c379;
 }
@@ -17,7 +18,7 @@
 }
 body {
     position: relative;
-    background-color: var(--color-black-lighter);
+    background-color: var(--color-gray);
     color: var(--color-white);
     padding: 20px;
 }
@@ -89,13 +90,18 @@ body {
     cursor: pointer;
     margin-top: 5px;
     background-color: #444; 
+    color: var(--color-black);
+}
+#submit_button{
     color: var(--color-white);
 }
-
 #submit_button:hover,
 #cancel_edit_button:hover,
 #button_volver_inicio:hover {
     background-color: #666;
+}
+#button_volver_inicio{
+    color: var(--color-white);
 }
 
 #phrases_list {
@@ -130,6 +136,7 @@ body {
 
 .edit_btn {
     background-color: var(--color-primary); 
+    color: var(--color-black) !important;
 }
 
 .delete_btn {

@@ -4,12 +4,16 @@ document.addEventListener('DOMContentLoaded',(e) =>{
   const btn_log_in = document.getElementById('btn_log_in');
   const btn_leaderboard = document.getElementById('btn_leaderboard');
   const btn_admin = document.getElementById('btn_admin');
-  
-  // Routes 
-  const link_game = '../pages/level_select.html';
-  const link_log_in = '../pages/forms/login/login.html';
-  const link_leaderboard = '../pages/leaderboard.html';
-  const link_admin = '../pages/admin.html';
+
+// home.js (Ejecutado por index.html que está en la RAÍZ)
+
+// home.js - PRUEBA CON TODOS DENTRO DE PAGES (ASUMIENDO QUE SOLO game.html está en la raíz)
+
+const link_game = './assets/pages/level_select.html'; 
+const link_leaderboard = './assets/pages/leaderboard.html'; // Si está en pages/
+const link_admin = './assets/pages/admin.html';             // Si está en pages/
+const link_log_in = './assets/pages/forms/login/login.html';
+
 
   checkUserLogged();
   // Function

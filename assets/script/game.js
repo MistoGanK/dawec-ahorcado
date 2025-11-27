@@ -21,21 +21,29 @@ window.addEventListener("DOMContentLoaded", () => {
   // Contenedor reuslt
   const reuslt = document.querySelector(".reuslt");
   // Contenedor del ahorcado
-  const stickman = document.querySelector(".stickman");
   // Contenedor de las partes
   const stickman_parts = document.querySelector(".stickman_parts");
   // Contenedor nuevo record
   const pop_up_puntuaje = document.querySelector(".pop_up_puntuaje");
   // P neuvo record
   const p_nuevo_record = document.getElementById("p_nuevo_record");
-  // button nuevo record
+  // Nav buttons
+  const nav_buttons = document.querySelector('.nav_buttons');
+
+  // buttons
+  const btn_volver_jugar = document.getElementById('btn_volver_jugar');
+  const btn_volver_seleccion = document.getElementById('btn_volver_seleccion');
+  const btn_volver_inicio = document.getElementById('btn_volver_inicio');
   const button_new_record = document.getElementById("button_new_record");
+
 
   // Links
 
-  const home_href = "/index.html";
-  const dbServerLeaderboard = "http://localhost:3000/leaderboard";
+  const home_href = "index.html";
   const dbServerUsers = "http://localhost:3000/users";
+  const inico_href = "index.html";
+  const level_select_href = 'assets/pages/level_select.html';
+  const game_href = 'game.html';
 
   // Endpoints
 
@@ -447,6 +455,9 @@ window.addEventListener("DOMContentLoaded", () => {
       await comprovarRecord(puntos);
 
       abc.style.pointerEvents = "none";
+
+      nav_buttons.classList.toggle('show');
+
       // Debug
       // console.log("MUY BIEN CAMPEON");
     }
@@ -465,6 +476,8 @@ window.addEventListener("DOMContentLoaded", () => {
       p_nuevo_record.innerHTML = puntos;
 
       abc.style.pointerEvents = "none";
+
+      nav_buttons.classList.toggle('show');
       // Debug
       // console.log("Muerte");
     }
@@ -489,4 +502,8 @@ window.addEventListener("DOMContentLoaded", () => {
     e.preventDefault();
     pop_up_puntuaje.classList.toggle("show");
   });
-});
+  // Buttons post win-lose
+  btn_volver_inicio.addEventListener('click', () => window.location = home_href);
+  btn_volver_jugar.addEventListener('click', ()=> window.location = game_href);
+  btn_volver_seleccion.addEventListener('click',()=> window.location = level_select_href);}
+);

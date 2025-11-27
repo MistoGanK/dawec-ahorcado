@@ -6,7 +6,7 @@ const dififulty_level = document.getElementById('dififulty_level');
 const level_p = document.getElementById('level_p');
 
 // Links
-const game_href = 'game.html';
+const game_href = '../../game.html';
 // Constants
 const diffuculty_levels = ['Facil','Medio','Dificil'];
 // FUNCTIONS

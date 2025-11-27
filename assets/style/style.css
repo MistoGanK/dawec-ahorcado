@@ -264,14 +264,29 @@ h3 {
 #button_new_record {
   margin-top: 6px;
 }
-#button_new_record:hover {
-  background-color: var(--color-grey-tranps);
+.nav_buttons{
+  display: none;
+  gap: 16px;
 }
-.puntuaje_superado button {
+button{
+  font-family: monospace;
+}
+button:hover {
+  background-color: var(--color-grey-tranps);
+  scale: 1.05;
+}
+button:active {
+  scale: 1;
+}
+.puntuaje_superado button,
+#btn_volver_inicio,
+#btn_volver_seleccion,
+#btn_volver_jugar{
   cursor: pointer;
   padding: 10px 30px;
   background-color: var(--color-grey-tranps-denser);
   border-radius: 5px;
+  border: none;
 }
 /* JS styles */
 .error {
